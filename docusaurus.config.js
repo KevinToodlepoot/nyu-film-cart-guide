@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Film Cart Setup Guide',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/nyu-logo.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -56,6 +56,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'NYU Film Cart Guide',
+        logo: {
+          alt: 'NYU Logo',
+          src: 'img/nyu-logo.png',
+        }
       },
       prism: {
         theme: lightCodeTheme,
