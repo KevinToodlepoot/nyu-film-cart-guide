@@ -56,18 +56,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'NYU Film Cart Guide',
-        // logo: {
-        //   // alt: 'My Site Logo',
-        //   // src: 'img/logo.svg',
-        // },
-        items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-        ],
       },
       prism: {
         theme: lightCodeTheme,
